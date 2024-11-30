@@ -44,7 +44,7 @@ jobs:
           python-version: 3.11
       - name: Lint, Format, and other static code quality checks
         run: |
-          make install 
+          make install
           make test
 
   push-tags:
